@@ -148,9 +148,9 @@
 				/* SUPER TURBO */
 				qcom,gpu-pwrlevel@0 {
 					reg = <0>;
-					qcom,gpu-freq = <600000000>;
-					qcom,bus-freq = <9>;
-					qcom,bus-min = <9>;
+					qcom,gpu-freq = <621330000>;
+					qcom,bus-freq = <10>;
+					qcom,bus-min = <10>;
 					qcom,bus-max = <10>;
 				};
 
@@ -212,6 +212,8 @@
 		qcom,gpu-speed-config@1 {
 			compatible = "gpu-speed-config@1";
 
+			qcom,initial-pwrlevel = <5>;
+
 			/* Power levels */
 			qcom,gpu-pwrlevels {
 				#address-cells = <1>;
@@ -231,9 +233,9 @@
 				/* TURBO */
 				qcom,gpu-pwrlevel@1 {
 					reg = <1>;
-					qcom,gpu-freq = <600000000>;
-					qcom,bus-freq = <9>;
-					qcom,bus-min = <9>;
+					qcom,gpu-freq = <621330000>;
+					qcom,bus-freq = <10>;
+					qcom,bus-min = <10>;
 					qcom,bus-max = <10>;
 				};
 
